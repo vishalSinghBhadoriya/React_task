@@ -13,7 +13,7 @@ export const PostsProvider = ({children})=> {
             setPosts(data);
             setLoading(false);
         });
-          }, 1000);
+          }, 5000);
 
     }, []);
 const removePost=(id)=>{

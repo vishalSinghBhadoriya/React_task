@@ -30,7 +30,7 @@ const totalPages=Math.ceil(posts.length / perPage);
           <div className="col-1">
             <h1>Hi Reader</h1>
             <p>Here's you News!</p>
-            <button onClick={toggleView}>Toggle View</button>
+            <button onClick={toggleView}>View Toggle</button>
             <button onClick={() => setShowForm(true)}>We are Listening</button>
           </div>
           <div className="col-2">
